@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA45A8D1A46A8200085304A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA45A8C1A46A8200085304A /* AppDelegate.swift */; };
+		7BA45A8F1A46A8200085304A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA45A8E1A46A8200085304A /* ViewController.swift */; };
+		7BA45A921A46A8200085304A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA45A901A46A8200085304A /* Main.storyboard */; };
+		7BA45A941A46A8200085304A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA45A931A46A8200085304A /* Images.xcassets */; };
+		7BA45A971A46A8200085304A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BA45A951A46A8200085304A /* LaunchScreen.xib */; };
+		7BA45AA31A46A8200085304A /* Life_Counter_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA45AA21A46A8200085304A /* Life_Counter_3Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BA45A9D1A46A8200085304A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA45A7F1A46A8200085304A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA45A861A46A8200085304A;
+			remoteInfo = "Life Counter 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BA45A871A46A8200085304A /* Life Counter 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Counter 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA45A8B1A46A8200085304A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA45A8C1A46A8200085304A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BA45A8E1A46A8200085304A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BA45A911A46A8200085304A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA45A931A46A8200085304A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BA45A961A46A8200085304A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BA45A9C1A46A8200085304A /* Life Counter 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Counter 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA45AA11A46A8200085304A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA45AA21A46A8200085304A /* Life_Counter_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Counter_3Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA45A841A46A8200085304A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA45A991A46A8200085304A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA45A7E1A46A81F0085304A = {
+			isa = PBXGroup;
+			children = (
+				7BA45A891A46A8200085304A /* Life Counter 3 */,
+				7BA45A9F1A46A8200085304A /* Life Counter 3Tests */,
+				7BA45A881A46A8200085304A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA45A881A46A8200085304A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA45A871A46A8200085304A /* Life Counter 3.app */,
+				7BA45A9C1A46A8200085304A /* Life Counter 3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA45A891A46A8200085304A /* Life Counter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				7BA45A8C1A46A8200085304A /* AppDelegate.swift */,
+				7BA45A8E1A46A8200085304A /* ViewController.swift */,
+				7BA45A901A46A8200085304A /* Main.storyboard */,
+				7BA45A931A46A8200085304A /* Images.xcassets */,
+				7BA45A951A46A8200085304A /* LaunchScreen.xib */,
+				7BA45A8A1A46A8200085304A /* Supporting Files */,
+			);
+			path = "Life Counter 3";
+			sourceTree = "<group>";
+		};
+		7BA45A8A1A46A8200085304A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA45A8B1A46A8200085304A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BA45A9F1A46A8200085304A /* Life Counter 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA45AA21A46A8200085304A /* Life_Counter_3Tests.swift */,
+				7BA45AA01A46A8200085304A /* Supporting Files */,
+			);
+			path = "Life Counter 3Tests";
+			sourceTree = "<group>";
+		};
+		7BA45AA01A46A8200085304A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA45AA11A46A8200085304A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA45A861A46A8200085304A /* Life Counter 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA45AA61A46A8200085304A /* Build configuration list for PBXNativeTarget "Life Counter 3" */;
+			buildPhases = (
+				7BA45A831A46A8200085304A /* Sources */,
+				7BA45A841A46A8200085304A /* Frameworks */,
+				7BA45A851A46A8200085304A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Counter 3";
+			productName = "Life Counter 3";
+			productReference = 7BA45A871A46A8200085304A /* Life Counter 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BA45A9B1A46A8200085304A /* Life Counter 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA45AA91A46A8200085304A /* Build configuration list for PBXNativeTarget "Life Counter 3Tests" */;
+			buildPhases = (
+				7BA45A981A46A8200085304A /* Sources */,
+				7BA45A991A46A8200085304A /* Frameworks */,
+				7BA45A9A1A46A8200085304A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA45A9E1A46A8200085304A /* PBXTargetDependency */,
+			);
+			name = "Life Counter 3Tests";
+			productName = "Life Counter 3Tests";
+			productReference = 7BA45A9C1A46A8200085304A /* Life Counter 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA45A7F1A46A8200085304A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7BA45A861A46A8200085304A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7BA45A9B1A46A8200085304A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7BA45A861A46A8200085304A;
+					};
+				};
+			};
+			buildConfigurationList = 7BA45A821A46A8200085304A /* Build configuration list for PBXProject "Life Counter 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA45A7E1A46A81F0085304A;
+			productRefGroup = 7BA45A881A46A8200085304A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA45A861A46A8200085304A /* Life Counter 3 */,
+				7BA45A9B1A46A8200085304A /* Life Counter 3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA45A851A46A8200085304A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA45A921A46A8200085304A /* Main.storyboard in Resources */,
+				7BA45A971A46A8200085304A /* LaunchScreen.xib in Resources */,
+				7BA45A941A46A8200085304A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA45A9A1A46A8200085304A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA45A831A46A8200085304A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA45A8F1A46A8200085304A /* ViewController.swift in Sources */,
+				7BA45A8D1A46A8200085304A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA45A981A46A8200085304A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA45AA31A46A8200085304A /* Life_Counter_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA45A9E1A46A8200085304A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA45A861A46A8200085304A /* Life Counter 3 */;
+			targetProxy = 7BA45A9D1A46A8200085304A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BA45A901A46A8200085304A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA45A911A46A8200085304A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA45A951A46A8200085304A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA45A961A46A8200085304A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA45AA41A46A8200085304A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BA45AA51A46A8200085304A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA45AA71A46A8200085304A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Life Counter 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BA45AA81A46A8200085304A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Life Counter 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BA45AAA1A46A8200085304A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Life Counter 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Counter 3.app/Life Counter 3";
+			};
+			name = Debug;
+		};
+		7BA45AAB1A46A8200085304A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Life Counter 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Counter 3.app/Life Counter 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA45A821A46A8200085304A /* Build configuration list for PBXProject "Life Counter 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA45AA41A46A8200085304A /* Debug */,
+				7BA45AA51A46A8200085304A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA45AA61A46A8200085304A /* Build configuration list for PBXNativeTarget "Life Counter 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA45AA71A46A8200085304A /* Debug */,
+				7BA45AA81A46A8200085304A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BA45AA91A46A8200085304A /* Build configuration list for PBXNativeTarget "Life Counter 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA45AAA1A46A8200085304A /* Debug */,
+				7BA45AAB1A46A8200085304A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA45A7F1A46A8200085304A /* Project object */;
+}
