@@ -14,4 +14,4 @@ here.
 I used UIAlertView which depracated from iOS 8.0. This should be updated to UIAlertController, I put this on the todo list...
 
 #Screenshots
-![Screenshot](http://webdevils.com/20-life/20-Life-Screensot-1.jpg)
+![Screenshot](http://webdevils.com/20-life/img/20-Life-Screensot-1.jpg)
