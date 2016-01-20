@@ -72,7 +72,7 @@ class ViewController: UIViewController, SettingsViewControllerProtocol, UIAlertV
     func loadDefaults() {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let savedStartingCount: AnyObject = defaults.objectForKey(kSavedStartingCountKey) {
-            startingCount = Int(savedStartingCount as NSNumber)
+            startingCount = Int(savedStartingCount as! NSNumber)
         }
     }
     
@@ -112,12 +112,12 @@ class ViewController: UIViewController, SettingsViewControllerProtocol, UIAlertV
     }
     
     func addConstraints() {
-        viewA.setTranslatesAutoresizingMaskIntoConstraints(false)
+        viewA.translatesAutoresizingMaskIntoConstraints = false
         let views: Dictionary = ["viewA":self.viewA, "viewB":self.viewB]
-        let hca:[AnyObject]! = NSLayoutConstraint.constraintsWithVisualFormat("H:|-[viewA]-|",
-            options: NSLayoutFormatOptions(0), metrics: nil, views: views)
-        let vca:[AnyObject]! = NSLayoutConstraint.constraintsWithVisualFormat("V:|-[viewA]-|",
-            options: NSLayoutFormatOptions(0), metrics: nil, views: views)
+        let hca:[NSLayoutConstraint]! = NSLayoutConstraint.constraintsWithVisualFormat("H:|-[viewA]-|",
+            options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
+        let vca:[NSLayoutConstraint]! = NSLayoutConstraint.constraintsWithVisualFormat("V:|-[viewA]-|",
+            options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
         
         viewA.addConstraints(hca)
         viewA.addConstraints(vca)
@@ -129,7 +129,7 @@ class ViewController: UIViewController, SettingsViewControllerProtocol, UIAlertV
     }
     
     func configureLabel(label: UILabel, str: String) {
-        label.frame = rect.rectByInsetting(dx: labelInset, dy: labelInset)
+        label.frame = rect.insetBy(dx: labelInset, dy: labelInset)
         label.font = UIFont.boldSystemFontOfSize(rect.width)
         label.adjustsFontSizeToFitWidth = true
         label.baselineAdjustment = UIBaselineAdjustment.AlignCenters
@@ -195,10 +195,10 @@ class ViewController: UIViewController, SettingsViewControllerProtocol, UIAlertV
     }
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
-        println("Alert: \(buttonIndex)")
+        print("Alert: \(buttonIndex)")
         switch buttonIndex {
         case 0:
-            println("Reset alert canceled")
+            print("Reset alert canceled")
         case 1:
             self.resetCount()
         default:
@@ -234,8 +234,8 @@ class ViewController: UIViewController, SettingsViewControllerProtocol, UIAlertV
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "ShowSettingsSegue" {
-            println("VC prepare for segue set delegate")
-            var vc = segue.destinationViewController as SettingsViewController
+            print("VC prepare for segue set delegate")
+            let vc = segue.destinationViewController as! SettingsViewController
             vc.delegate = self
             vc.counter = startingCount
         }

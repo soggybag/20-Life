@@ -49,9 +49,10 @@ class SettingsViewController: UIViewController {
     }
     
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        let touch = touches.anyObject() as UITouch
-        let p = touch.locationInView(self.view)
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        // let touch = touches.anyObject() as! UITouch
+        let touch = touches.first
+        _ = touch!.locationInView(self.view)
         panDelta = counter
     }
     
